@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome</title>
+</head>
+<body>
+<h3>First Html with proper css and javascript.</h3>
+<img style="box-shadow: 10px 10px 5px #888888;" src="./India-Map.jpg" alt="India-Map" usemap="#India">
+<map name="India">
+  <area onclick="fun1()" shape="rect" coords="118,32,168,71" target="_blank" alt="J & K" title="J & K">
+  <area onclick="fun2()" shape="circle" coords="90,180,30" alt="Rajasthan" title="Rajasthan">
+  <area onclick="fun3()" shape="circle" coords="113,300,30" alt="Maharashtra" title="Maharashtra">
+  <area onclick="fun4()" shape="rect" coords="140,220,195,255" alt="Madhya Pradesh" title="Madhya Pradesh">
+</map>
+<script>
+function fun1(){
+window.alert("Welcome to J & K");
+window.open('https://en.wikipedia.org/wiki/Jammu_and_Kashmir','_blank');
+}
+function fun2(){
+window.alert("Welcome to Rajasthan");
+window.open('https://en.wikipedia.org/wiki/Rajasthan','_blank');
+}
+function fun3(){
+window.alert("Welcome to Maharashtra");
+window.open('https://en.wikipedia.org/wiki/Maharashtra','_blank');
+}
+function fun4(){
+window.alert("Welcome to Madhya Pradesh");
+window.open('https://en.wikipedia.org/wiki/Madhya_Pradesh','_blank');
+}
+</script>
+</body>
+</html>
