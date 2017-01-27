@@ -1,0 +1,33 @@
+body{
+	background-color: powderblue;
+}
+img{
+	display: block;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px #888888;
+}
+h3{
+	color: black;
+    font-family: Comic Sans MS;
+    font-size: 200%;
+	text-align: center;
+}
+h2{
+	color: decimal-leading-zero;
+	font-family: Comic Sans MS;
+	font-size:150%;
+	text-align: justify;
+	margin: 75px;
+}
+h4{
+	color: black;
+	font-family: Comic Sans MS;
+	font-size:200%;
+	text-align: center;
+}
+pre{
+	color: black;
+	font-family: Comic Sans MS;
+	font-size:125%;
+	text-align: left;
+}
